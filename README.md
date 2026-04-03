@@ -34,7 +34,7 @@ sail artisan transfer:optimistic 1 2 200
 
 По умолчанию проект настроен на **MySQL** (через Laravel Sail).
 
-### PostgreSQL 
+<!--### PostgreSQL 
 (coming soon in feature/postgres branch)
 
 Поддержка PostgreSQL будет реализована в ветке [`feature/postgres`](ссылка).  
@@ -47,6 +47,7 @@ cp .env.example .env
 ./vendor/bin/sail up -d
 ./vendor/bin/sail artisan migrate --seed
 ```
+-->
 ### Структура БД
 accounts (id, name, balance, reserved, version)
 
