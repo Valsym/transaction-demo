@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Account extends Model
 {
+    protected $fillable = ['name', 'balance', 'reserved', 'version'];
+
     // Транзакции, где этот аккаунт был отправителем
     public function sentTransactions()
     {
