@@ -54,7 +54,6 @@ cp .env.example .env
   *Поля `reserved` и `version` используются соответственно во вложенных транзакциях (`transfer:reserve`) и оптимистичной блокировке (`transfer:optimistic`).*
 - `transactions` (id, from_account_id, to_account_id, amount, status)
 
-transactions (id, from_account_id, to_account_id, amount, status)
 
 ## Что показывает проект
 - Атомарность операций (commit/rollback)
